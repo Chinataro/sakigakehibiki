@@ -1,12 +1,13 @@
 *{
     margin:0px;
     padding:0px;
+    font-family:"Hiragino Mincho ProN";
 }
 
 #header{
     width:100%;
     overflow:hidden;
-    background:#2c2c2c;
+   
     
     
 }
@@ -14,6 +15,8 @@ nav{
     overflow:hidden;
     text-align:center;
     padding:20px;
+    display:block;
+     background:#2c2c2c;
 }
 nav ul{
     display:inline-block;
@@ -31,11 +34,46 @@ nav a{
     margin:20px;
     
 }
-#wrapper{
-    text-align:center;
-}
-.main-visual{
+#header{
     background:url(/img/mainhead.png) 0 0 no-repeat;
     width:;
-    height:100vw;
+    height:120vw;
+    z-index:-1;
+}
+.logo img{
+    width:18vw;
+    height:19vw;
+    margin:40px;
+}
+h1{
+    writing-mode: vertical-rl;
+    font-size:54px;
+    margin-right:140px; 
+    margin-top:0px;
+    color:#2c2c2c;
+    font-weight:700;
+    line-height:100px;
+    position:absolute;
+    top:120px;
+    left:1120px;
+    
+}
+#main{
+    background: url(/img/backgroundmain.png) 0 0 no-repeat;
+    width:100vw;
+    height:500vw;
+    z-index:3px;
+    position:absolute;
+    top:643px;
+}
+
+.main1 img {
+    width:30vw;
+    height:30vw;
+    margin-top:12vw;
+    margin-left:1vw;
+}
+.section1{
+    width:70%;
+    margin:0 auto;
 }
