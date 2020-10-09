@@ -3,7 +3,13 @@
     padding:0px;
     font-family:"Hiragino Mincho ProN";
 }
-
+html{
+   display:block;
+    
+}
+body{
+   display:block;
+}
 #header{
     width:100%;
     overflow:hidden;
@@ -61,7 +67,6 @@ h1{
 #main{
     background: url(/img/backgroundmain.png) 0 0 no-repeat;
     width:100vw;
-    height:500vw;
     z-index:3px;
     position:absolute;
     top:643px;
@@ -70,10 +75,150 @@ h1{
 .main1 img {
     width:30vw;
     height:30vw;
-    margin-top:12vw;
-    margin-left:1vw;
+    top:200vw;
+    float:left;
+    margin-right:2.5vw;
+
 }
-.section1{
+.main1{
+    width:30vw;
+    
+}
+
+.paragraph-box1 h2{
+    width:70vw;
+    padding-top:5vw;
+    font-size:36px;
+    color:#f9f5f0;
+   
+   
+    
+}
+p{
+    font-size:20px;
+    color:#f9f5f0;
+   
+}
+h2{
+    font-size:36px;
+    color:#f9f5f0;
+}
+.paragraph-box1 p{
+    width:70vw;
+    line-height:3vw;
+    margin-top:3vw;
+    
+}
+#section1 p{
+    font-size:20px;
+ 
+    
+}
+#section1{
     width:70%;
     margin:0 auto;
+    height:38vw;
+    margin-top:12vw;
+    
+}
+#section2{
+    width:70%;
+    margin:0 auto;
+    height:40vw;
+}
+.main2 img {
+    width:30vw;
+    height:30vw;
+    top:200vw;
+    float:right;
+    margin-left:2.5vw;
+
+}
+.paragraph-box2 h2{
+    width:30vw;
+    padding-top:7vw;
+    font-size:36px;
+    color:#f9f5f0;
+    text-align:center; 
+}
+.paragraph-box2 p{
+    width:40vw;
+    line-height:3vw;
+    margin-top:3vw;
+    margin-right:2vw;
+    
+}
+.button1 a{
+    font-size:24px;
+    text-decoration:none;
+    color:#f9f5f0;
+    background-color:#2a2828;
+    display:inline-block;
+    border-color:#2a2828;
+    padding:0.9vw 3vw;
+   
+   
+}
+.button1{
+    margin-top:3vw;
+    width:30vw;
+    text-align:center;
+}
+#section3{
+    width:70%;
+    margin:0 auto;
+    height:55vw;
+}
+ .main3 img {
+    width:30vw;
+    height:30vw;
+    top:200vw;
+    float:left;
+    margin-right:2vw;
+    margin-left:8vw;
+    
+
+}
+.paragraph-box3 p{
+
+    line-height:3vw;
+    margin-top:3vw;
+   
+    
+}
+
+.paragraph-box3 h2{
+    padding-top:7vw;
+    font-size:36px;
+    color:#f9f5f0;
+    text-align:center; 
+}
+.button2 a{
+    font-size:24px;
+    text-decoration:none;
+    color:#f9f5f0;
+    background-color:#2a2828;
+    display:inline-block;
+    border-color:#2a2828;
+    padding:0.9vw 3vw;
+   
+   
+}
+.button2{
+    margin-top:3vw;
+    width:30vw;
+    text-align:center;
+    float:right;
+}
+.main4 img{
+    width:18vw;
+    height:18vw;
+    position:absolute;
+    right:67vw;
+    top:110vw;
+}
+.paragraph-box3{
+    margin-top:16vw;
+    width:30vw;
+    float:right;
 }
