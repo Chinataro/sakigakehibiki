@@ -1,6 +1,6 @@
 *{
-    margin:0px;
-    padding:0px;
+    margin:0vw;
+    padding:0vw;
     font-family:"Hiragino Mincho ProN";
 }
 html{
@@ -42,12 +42,13 @@ nav a{
 }
 #header{
     background:url(/img/mainhead.png) 0 0 no-repeat;
-    height:87vh;
+    background:cover;
+    height:95vh;
     position:relative;
 }
 .logo img{
     width:18vw;
-    height:30vh;
+    height:36vh;
     margin:40px;
 }
 h1{
@@ -66,13 +67,13 @@ h1{
     background: url(/img/backgroundmain.png) 0 0 no-repeat;
     width:100vw;
     z-index:3px;
-    top:-18vh;
+    top:-20vh;
     position:relative;
 }
 
 .main1 img {
     width:30vw;
-    height:48vh;
+    height:52vh;
     float:left;
     margin-right:2.5vw;
     margin-top:20vh;
@@ -104,7 +105,7 @@ h2{
 }
 .paragraph-box1 p{
     width:70vw;
-    line-height:3vw;
+    line-height:5vh;
     margin-top:5vh;
     
 }
@@ -116,7 +117,7 @@ h2{
 #section1{
     width:70%;
     margin:0 auto;
-    height:83vh;
+    height:85vh;
     top:700vh;
     
 }
@@ -124,11 +125,11 @@ h2{
 #section2{
     width:70%;
     margin:0 auto;
-    height:40vw;
+    height:72vh;
 }
 .main2 img {
     width:30vw;
-    height:48vh;
+    height:52vh;
     top:200vw;
     float:right;
     margin-left:2.5vw;
@@ -136,15 +137,15 @@ h2{
 }
 .paragraph-box2 h2{
     width:30vw;
-    padding-top:7vw;
+    padding-top:12vh;
     font-size:36px;
     color:#f9f5f0;
     text-align:center; 
 }
 .paragraph-box2 p{
     width:40vw;
-    line-height:3vw;
-    margin-top:3vw;
+    line-height:5vh;
+    margin-top:5vh;
     margin-right:2vw;
     
 }
@@ -160,18 +161,18 @@ h2{
    
 }
 .button1{
-    margin-top:3vw;
+    margin-top:5vh;
     width:30vw;
     text-align:center;
 }
 #section3{
     width:70%;
     margin:0 auto;
-    height:55vw;
+    height:96vh;
 }
  .main3 img {
     width:30vw;
-    height:48vh;
+    height:52vh;
     top:200vw;
     float:left;
     margin-right:2vw;
@@ -188,7 +189,7 @@ h2{
 }
 
 .paragraph-box3 h2{
-    padding-top:7vw;
+    padding-top:7vh;
     font-size:36px;
     color:#f9f5f0;
     text-align:center; 
@@ -222,4 +223,17 @@ h2{
     margin-top:16vw;
     width:30vw;
     float:right;
+}
+#info{
+    background:url(/img/news.png)0 0 no-repeat;
+    width:100vw;
+    height:100vh;
+    margin-top:-20vh;
+}
+#info h3{
+    font-size: 54px;
+    text-align:center;
+    font-weight:600;
+    padding-top:5vh;
+    color:#2a2828;
 }
