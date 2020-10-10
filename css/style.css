@@ -42,42 +42,41 @@ nav a{
 }
 #header{
     background:url(/img/mainhead.png) 0 0 no-repeat;
-    width:;
-    height:120vw;
-    z-index:-1;
+    height:87vh;
+    position:relative;
 }
 .logo img{
     width:18vw;
-    height:19vw;
+    height:30vh;
     margin:40px;
 }
 h1{
     writing-mode: vertical-rl;
     font-size:54px;
-    margin-right:140px; 
     margin-top:0px;
     color:#2c2c2c;
     font-weight:700;
     line-height:100px;
     position:absolute;
     top:120px;
-    left:1120px;
+    right:9vw;
     
 }
 #main{
     background: url(/img/backgroundmain.png) 0 0 no-repeat;
     width:100vw;
     z-index:3px;
-    position:absolute;
-    top:643px;
+    top:-18vh;
+    position:relative;
 }
 
 .main1 img {
     width:30vw;
-    height:30vw;
-    top:200vw;
+    height:48vh;
     float:left;
     margin-right:2.5vw;
+    margin-top:20vh;
+ 
 
 }
 .main1{
@@ -87,7 +86,7 @@ h1{
 
 .paragraph-box1 h2{
     width:70vw;
-    padding-top:5vw;
+    padding-top:30vh;
     font-size:36px;
     color:#f9f5f0;
    
@@ -106,7 +105,7 @@ h2{
 .paragraph-box1 p{
     width:70vw;
     line-height:3vw;
-    margin-top:3vw;
+    margin-top:5vh;
     
 }
 #section1 p{
@@ -117,10 +116,11 @@ h2{
 #section1{
     width:70%;
     margin:0 auto;
-    height:38vw;
-    margin-top:12vw;
+    height:83vh;
+    top:700vh;
     
 }
+
 #section2{
     width:70%;
     margin:0 auto;
@@ -128,7 +128,7 @@ h2{
 }
 .main2 img {
     width:30vw;
-    height:30vw;
+    height:48vh;
     top:200vw;
     float:right;
     margin-left:2.5vw;
@@ -171,12 +171,12 @@ h2{
 }
  .main3 img {
     width:30vw;
-    height:30vw;
+    height:48vh;
     top:200vw;
     float:left;
     margin-right:2vw;
     margin-left:8vw;
-    
+
 
 }
 .paragraph-box3 p{
@@ -214,7 +214,8 @@ h2{
     width:18vw;
     height:18vw;
     position:absolute;
-    right:67vw;
+    z-index:2;
+    left:15vw;
     top:110vw;
 }
 .paragraph-box3{
