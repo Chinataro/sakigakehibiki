@@ -3,6 +3,10 @@
     padding: 0vw;
     font-family: "Hiragino Mincho ProN";
 }
+#wrapper{
+    width:100%;
+    overflow:hidden;
+}
 
 html {
     display: block;
@@ -246,6 +250,9 @@ h4{
 }
 .infobox .info-button{
     display:inline-block;
+}
+#slick{
+    overflow:hidden;
 }
 .slick-slide {
   transition: .3s ease;

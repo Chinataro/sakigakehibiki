@@ -229,6 +229,9 @@ h4{
     color:#2c2c2c;
     
 }
+#slick{
+    overflow:hidden;
+}
 .infobox .info-button{
     display:inline-block;
 }
