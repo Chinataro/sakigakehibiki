@@ -70,10 +70,12 @@ nav a:hover::after {
 }
 
 #header {
-    background: url(/img/mainhead.png) 0 0 no-repeat;
+    background: url(/img/memberhead2.png) 0 0 no-repeat;
     background: cover;
     height: 95vh;
+    width:100vw;
     position: relative;
+    
 }
 
 .logo img {
@@ -83,50 +85,24 @@ nav a:hover::after {
 }
 
 h1 {
-    writing-mode: vertical-rl;
+    width:100vw;
+    top:42vh;
+    text-align: center;
     font-size: 54px;
-    margin-top: 0px;
-    color: #2c2c2c;
+    color:#f9f5f0 ;
     font-weight: 700;
     line-height: 100px;
     position: absolute;
-    top: 120px;
-    right: 9vw;
-
 }
 
 #main {
-    background: url(/img/backgroundmain.png) 0 0 no-repeat;
+    background: url(/img/backgroundmember2.png) 0 0 no-repeat;
     width: 100vw;
     z-index: 3px;
-    top: -20vh;
+    top: -30vh;
     position: relative;
 }
 
-.main1 img {
-    width: 30vw;
-    height: 52vh;
-    float: left;
-    margin-right: 2.5vw;
-    margin-top: 20vh;
-
-
-}
-
-.main1 {
-    width: 30vw;
-
-}
-
-.paragraph-box1 h2 {
-    width: 70vw;
-    padding-top: 30vh;
-    font-size: 36px;
-    color: #f9f5f0;
-
-
-
-}
 
 p {
     font-size: 20px;
@@ -139,75 +115,77 @@ h2 {
     color: #f9f5f0;
 }
 
-.paragraph-box1 p {
-    width: 70vw;
-    line-height: 5vh;
-    margin-top: 5vh;
-
-}
-
-#section1 p {
-    font-size: 20px;
-
-
-}
 
 #section1 {
     width: 70%;
     margin: 0 auto;
-    height: 85vh;
+    height: 60vh;
     top: 700vh;
+    padding-top:18vh;
 
 }
-
-#section2 {
-    width: 70%;
-    margin: 0 auto;
-    height: 72vh;
+#section1 p{
+    padding-top:5vh;
+    padding-left:1vw;
+    line-height:5vh;
+    
 }
-
-.main2 img {
-    width: 30vw;
-    height: 52vh;
-    top: 200vw;
-    float: right;
-    margin-left: 2.5vw;
-
+#section2{
+    width:70%;
+    margin:0 auto;
+    height:500vh;
+    
 }
-
-.paragraph-box2 h2 {
-    width: 30vw;
-    padding-top: 12vh;
-    font-size: 36px;
-    color: #f9f5f0;
+#section2 h2{
+    text-align:center;
+    font-size:48px;
+    padding-top:10vh;
+    padding-bottom:5vh;
+}
+#section2 p{
+    text-align:center;
+    line-height:5vh;
+    margin-bottom:10vh;
+    
+}
+.memberpic{
+    width:32vw;
     text-align: center;
+    margin-right:0px;
+    
+    
+}
+.memberpic img{
+    width:70%;
+    height:70%;
+}
+#section2 .memberpic p{
+    font-size:24px;
+    font-weight:600;
+   
+}
+#section2 .memberpic h2{
+    font-size:36px;
+    font-weight:600;
+    padding-top:3vh;
+    padding-bottom:0px;
+    
+   
+}
+.flexbox{
+   display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
 }
 
-.paragraph-box2 p {
-    width: 40vw;
-    line-height: 5vh;
-    margin-top: 5vh;
-    margin-right: 2vw;
-
-}
-
-.button1 a {
-    font-size: 24px;
-    text-decoration: none;
-    color: #f9f5f0;
-    background-color: #2a2828;
-    display: inline-block;
-    border-color: #2a2828;
-    padding: 0.9vw 3vw;
 
 
-}
 
-.button1 {
-    margin-top: 5vh;
-    width: 30vw;
-    text-align: center;
-}
+
+
+
+
+
 
 
 
