@@ -68,7 +68,9 @@ nav a:hover::after {
     transform: scale(1, 1);
      
 }
-
+nav a:hover{
+    color:#726e6e;
+}
 #header {
     background: url(/img/memberhead2.png) 0 0 no-repeat;
     background: cover;
@@ -81,7 +83,7 @@ nav a:hover::after {
 .logo img {
     width: 18vw;
     height: 36vh;
-    margin: 40px;
+    margin:3vw 5vh;
 }
 
 h1 {
@@ -268,4 +270,114 @@ footer a:hover{
 }
 footer p{
     margin-top:3vh;
+}
+/*@mediaのところ以外は全てのサイズで読み込まれる！*/
+/*PC用のCSS*/
+@media screen and (min-width: 768px) { /*ウィンドウ幅が767px以上の場合に適用*/
+
+
+
+
+
+
+
+
+}
+/*タブレット用css*/
+@media screen and (max-width: 768px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
+ 
+
+
+
+
+
+
+}
+/**/
+@media screen and (max-width: 480px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+    nav a{
+         font-size:15px;
+          margin:2vh 2vw;
+    }
+    .logo img{
+          width:20vw;
+        height:15vh;
+    }
+    #header{
+         background:none;
+        background:url(/img/spmemberhead.png) 0 0 no-repeat;
+    }
+    h1{
+        font-size:32px;
+        line-height:30px;
+        top:20vh;
+        left:6vw;
+    }
+    #main{
+          background:none;
+          background:url(/img/spbackgroundmemeber.png)0 0 no-repeat;
+          top:-64vh;
+          
+    }
+    h2{
+        font-size:28px;
+    }
+    p{
+        font-size:18px;
+        line-height:5vh;
+    }
+    #section1{
+        width:80vw;
+    }
+    #section2{
+        width:80vw;
+        height:650vh;
+    }
+    #section2 h2{
+        padding-top:5vh;
+        padding-bottom:3vh;
+    }
+    #section2 p{
+}
+    .memberpic{
+        width:60vw;
+        
+    }
+    .memberpic img{
+        width:50vw;
+        height:32vh;
+    }
+    #info{
+        margin-top:-64vh;
+        height:80vh;
+        
+    }
+    #info h3{
+        padding-top:8vh;
+        font-size:40px;
+        height:10vh;
+        margin-bottom:10vh;
+    }
+    #slick{
+        margin-top:0vh;
+        bottom:5vh;
+    }
+    .infobox img{
+        width:80vw;
+        
+    }
+    footer{
+        text-align: left;
+    }
+    footer li{
+        float:none;
+        margin:1vh 2vw;
+        font-size:14px;
+    }
+    footer p{
+        margin-top:0vh;
+        margin-left:2vw;
+        font-size:15px;
+      
+    }
 }

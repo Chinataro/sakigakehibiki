@@ -72,6 +72,9 @@ nav a:hover::after {
     transform: scale(1, 1);
      
 }
+nav a:hover{
+color:#726e6e;
+}
 
 #header {
     background: url(/img/sstageshead.png) 0 0 no-repeat;
@@ -85,7 +88,7 @@ nav a:hover::after {
 .logo img {
     width: 18vw;
     height: 36vh;
-    margin: 40px;
+    margin: 3vw 5vh;
 }
 
 h1 {
@@ -185,6 +188,10 @@ h2 {
     padding:2vh 3vw;
     margin:2vh 2vw;
     font-weight:600;
+}
+#content-box .button1 a:hover{
+    color:#2c2c2c;
+    background-color:#726e6e;
 }
 #content-box h4{
     margin-top:0px;
@@ -287,4 +294,118 @@ footer a:hover{
 }
 footer p{
     margin-top:3vh;
+}
+/*@mediaのところ以外は全てのサイズで読み込まれる！*/
+/*PC用のCSS*/
+@media screen and (min-width: 768px) { /*ウィンドウ幅が767px以上の場合に適用*/
+
+
+
+
+
+
+
+
+}
+/*タブレット用css*/
+@media screen and (max-width: 768px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
+
+
+
+
+
+
+
+}
+/**/
+@media screen and (max-width: 480px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+  nav a{
+         font-size:15px;
+          margin:2vh 2vw;
+    }
+    .logo img{
+          width:20vw;
+        height:15vh;
+    }
+    #header{
+         background:none;
+        background:url(/img/spsbackgroundstages.png) 0 0 no-repeat;
+    }
+    h1{
+        font-size:32px;
+        line-height:30px;
+        top:20vh;
+        left:6vw;
+    }
+    #main{
+          background:none;
+          background:url(/img/spstagesback2.png)0 0 no-repeat;
+          top:-64vh;
+          
+    }
+    #section1{
+        width:80vw;
+        height:75vh;
+    }
+    #section1 h2{
+        font-size:28px;
+    }
+    #section1 p{
+        font-size:18px;
+        line-height:5vh;
+    }
+    #section2{
+        width:80vw;
+        height:720vh;
+    }
+    #content-box{
+        width:80vw;
+        height:50vh;
+    }
+    #content-box img{
+        width:54vw;
+        
+    }
+    #content-box h3{
+        font-size:28px;
+    }
+    #content-box .button1 a{
+        font-size:20px;
+        padding:2vh 1vw;
+        margin:1vh 5vw;
+    }
+     #info{
+        margin-top:-83vh;
+        height:90vh;
+    }
+    #info h3{
+        padding-top:8vh;
+        font-size:40px;
+        height:10vh;
+        margin-bottom:10vh;
+    }
+    #slick{
+        margin-top:0vh;
+        bottom:1vh;
+    }
+    .infobox img{
+        width:80vw;
+        
+    }
+    footer{
+        text-align: left;
+    }
+    footer li{
+        float:none;
+        margin:1vh 2vw;
+        font-size:14px;
+    }
+    footer p{
+        margin-top:0vh;
+        margin-left:2vw;
+        font-size:15px;
+      
+    }
+
+
 }
