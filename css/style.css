@@ -72,13 +72,19 @@ nav a:hover::after {
 nav a:hover{
     color:#726e6e;
 }
+/*
 #header {
     background: url(/img/mainhead.png) 0 0 no-repeat;
     background: cover;
     height: 800px;
     position: relative;
 }
-
+*/
+#wrapper{
+    background: url(/img/wrappermain.png) 50% 20% no-repeat;
+    background:cover;
+    width:100%;
+}
 .logo img {
     width: 250px;
     height: 280px;
@@ -97,7 +103,7 @@ h1 {
     right: 120px;
 
 }
-
+/*
 #main {
     background: url(/img/backgroundmain.png) 0 0 no-repeat;
     width: 100%;
@@ -105,22 +111,28 @@ h1 {
     top: -160px;
     position: relative;
 }
+*/
+
 
 .main1 img {
-    width: 400px;
-    height:400px;
-    float: left;
-    margin-right: 30px;
-    margin-top: 240px;
-
-
+    width: 350px;
+    height:350px;
+   
+    
+}
+.main1{
+    width:350px;
+    height:350px;
+    margin-right:40px;
+    float:left;
 }
 
-
-
+.paragraph-box1{
+    width:65vw;
+    height:45vh;
+}
 .paragraph-box1 h2 {
-    width: 1000px;
-    padding-top: 300px;
+    margin-right:0px;
     font-size: 36px;
     color: #f9f5f0;
 
@@ -135,12 +147,11 @@ p {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 24px;
     color: #f9f5f0;
 }
 
 .paragraph-box1 p {
-    width: 1000px;
     line-height: 40px;
     margin-top: 25px;
 
