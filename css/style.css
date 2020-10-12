@@ -561,8 +561,8 @@ footer p{
     }
     #info{
         margin-top:-570px;
-        height:80vh;
-        
+        height:90vh;
+        width:100vw;
     }
     #info h3{
         padding-top:30px;
@@ -571,7 +571,7 @@ footer p{
     #slick{
         width:100%;
         bottom:400px;
-        height:360px;
+        height:500px;
     }
     .infobox img{
         width:400px;
@@ -582,7 +582,7 @@ footer p{
     }
     footer li{
         float:none;
-        margin:8px 10px;
+        margin:6px 10px;
         font-size:14px;
     }
     footer p{

@@ -1,6 +1,6 @@
 * {
-    margin: 0vw;
-    padding: 0vw;
+    margin: 0px;
+    padding: 0px;
     font-family: "Hiragino Mincho ProN";
 }
 
@@ -24,7 +24,7 @@ body {
 nav {
     overflow: hidden;
     text-align: center;
-    padding: 0.5vh;
+    padding:5px;
     display: block;
     background: #2c2c2c;
 }
@@ -74,21 +74,21 @@ nav a:hover{
 #header {
     background: url(/img/memberhead2.png) 0 0 no-repeat;
     background: cover;
-    height: 95vh;
+    height:850px;
     width:100vw;
     position: relative;
     
 }
 
 .logo img {
-    width: 18vw;
-    height: 36vh;
-    margin:3vw 5vh;
+    width: 250px;
+    height: 280px;
+    margin:20px 25px;
 }
 
 h1 {
-    width:100vw;
-    top:42vh;
+    width:100%;
+    top:350px;
     text-align: center;
     font-size: 54px;
     color:#f9f5f0 ;
@@ -101,7 +101,7 @@ h1 {
     background: url(/img/backgroundmember2.png) 0 0 no-repeat;
     width: 100vw;
     z-index: 3px;
-    top: -30vh;
+    top: -250px;
     position: relative;
 }
 
@@ -122,14 +122,13 @@ h2 {
     width: 70%;
     margin: 0 auto;
     height: 60vh;
-    top: 700vh;
-    padding-top:18vh;
+    padding-top:160px;
 
 }
 #section1 p{
-    padding-top:5vh;
-    padding-left:1vw;
-    line-height:5vh;
+    padding-top:30px;
+    padding-left:20px;
+    line-height:40px;
     
 }
 #section2{
@@ -141,36 +140,35 @@ h2 {
 #section2 h2{
     text-align:center;
     font-size:48px;
-    padding-top:10vh;
-    padding-bottom:5vh;
+    padding-top:100px;
+    padding-bottom:50px;
 }
 #section2 p{
     text-align:center;
-    line-height:5vh;
-    margin-bottom:10vh;
+    line-height:30px;
+    margin-bottom:80px;
     
 }
 .memberpic{
-    width:33vw;
+    width:500px;
     text-align: center;
     margin-right:0px;
     
     
 }
 .memberpic img{
-    width:70%;
-    height:70%;
+    width:340px;
+    height:340px;
 }
 #section2 .memberpic p{
     font-size:24px;
     font-weight:600;
-    padding-top:3vh;
+    padding-top:28px;
    
 }
 #section2 .memberpic h2{
     font-size:36px;
     font-weight:600;
-    padding-top:3vh;
     padding-bottom:0px;
     
    
@@ -184,40 +182,36 @@ h2 {
     background: url(/img/news.png)0 0 no-repeat;
     width: 100vw;
     height: 100vh;
-    margin-top:-30vh;
+    margin-top:-250px;
 }
 
 #info h3 {
     font-size: 54px;
     text-align: center;
     font-weight: 600;
-    padding-top: 5vh;
+    padding-top: 50px;
     color: #2c2c2c;
 }
 
 .infobox{
-    width:40vw;
-    height:50vh;
+    width:400px;
+    height:500px;
     text-align: center;
     overflow: scroll;
 }
 .infobox img{
-    width:30vw;
-    height:30vh;
+    width:400px;
+    height:300px;
     
 }
-box.img{
-    width:30vw;
-    height:40vh;
-}
 #slick{
-    margin-top:15vh;
+    margin-top:100px;
 }
 .infobox .info-button a{
     text-decoration:none;
     color:#f9f5f0;
     background-color:#2c2c2c;
-    padding:1vh 3vw;
+    padding:10px 40px;
     
     
 }
@@ -226,7 +220,7 @@ box.img{
     background-color:#f9f5f0;
 }
 h4{
-    margin-top:10vh;
+    margin-top:80px;
     font-size:24px;
     color:#2c2c2c;
     
@@ -258,7 +252,7 @@ footer li{
     color:#f9f5f0;
     float:left;
     list-style-type:none;
-    margin:4vh 2vw;
+    margin:40px 20px;
     
 }
 footer a{
@@ -269,7 +263,7 @@ footer a:hover{
     color:#726e6e;
 }
 footer p{
-    margin-top:3vh;
+    margin-top:20px;
 }
 /*@mediaのところ以外は全てのサイズで読み込まれる！*/
 /*PC用のCSS*/
@@ -297,86 +291,87 @@ footer p{
 @media screen and (max-width: 480px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
     nav a{
          font-size:15px;
-          margin:2vh 2vw;
+          margin:10px 10px;
     }
     .logo img{
-          width:20vw;
-        height:15vh;
+          width:80px;
+        height:90px;
     }
     #header{
          background:none;
         background:url(/img/spmemberhead.png) 0 0 no-repeat;
     }
     h1{
-        font-size:32px;
+        font-size:20px;
         line-height:30px;
-        top:20vh;
-        left:6vw;
+        top:150px;
+        
     }
     #main{
           background:none;
           background:url(/img/spbackgroundmemeber.png)0 0 no-repeat;
-          top:-64vh;
+          top:-650px;
           
     }
     h2{
-        font-size:28px;
+        font-size:24px;
     }
     p{
-        font-size:18px;
-        line-height:5vh;
+        font-size:16px;
+        line-height:30px;
     }
     #section1{
         width:80vw;
     }
     #section2{
         width:80vw;
-        height:650vh;
+        height:720vh;
     }
     #section2 h2{
-        padding-top:5vh;
-        padding-bottom:3vh;
+        padding-bottom:10px;
+        padding-top:0px;
+        
     }
-    #section2 p{
-}
+
     .memberpic{
-        width:60vw;
+        width:400px;
         
     }
     .memberpic img{
-        width:50vw;
-        height:32vh;
+        width:280px;
+        height:280px;
     }
     #info{
-        margin-top:-64vh;
-        height:80vh;
+        margin-top:-650px;
+        height:90vh;
+        width:100%;
         
     }
     #info h3{
-        padding-top:8vh;
-        font-size:40px;
-        height:10vh;
-        margin-bottom:10vh;
+        padding-top:40px;
+        font-size:30px;
     }
     #slick{
-        margin-top:0vh;
-        bottom:5vh;
+        width:100%;
+        bottom:50px;
+        height:500px;
     }
     .infobox img{
-        width:80vw;
-        
+        width:400px;
     }
     footer{
         text-align: left;
     }
     footer li{
         float:none;
-        margin:1vh 2vw;
+        margin:6px 10px;
         font-size:14px;
     }
     footer p{
-        margin-top:0vh;
-        margin-left:2vw;
+        width:100%;
+        padding-bottom:2px;
+        margin-top:0px;
+        margin-left:10px;
         font-size:15px;
       
     }
