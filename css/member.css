@@ -71,6 +71,7 @@ nav a:hover::after {
 nav a:hover{
     color:#726e6e;
 }
+/*
 #header {
     background: url(/img/memberhead2.png) 0 0 no-repeat;
     background: cover;
@@ -79,7 +80,7 @@ nav a:hover{
     position: relative;
     
 }
-
+*/
 .logo img {
     width: 250px;
     height: 280px;
@@ -96,7 +97,7 @@ h1 {
     line-height: 100px;
     position: absolute;
 }
-
+/*
 #main {
     background: url(/img/backgroundmember2.png) 0 0 no-repeat;
     width: 100vw;
@@ -104,8 +105,12 @@ h1 {
     top: -250px;
     position: relative;
 }
+*/
 
-
+#wrapper{
+    background:url("/img/wrappermember.png")0 0 no-repeat;
+    background-size:cover;
+}
 p {
     font-size: 20px;
     color: #f9f5f0;
@@ -121,8 +126,8 @@ h2 {
 #section1 {
     width: 70%;
     margin: 0 auto;
-    height: 60vh;
-    padding-top:160px;
+    height: 35vh;
+    margin-top:400px;
 
 }
 #section1 p{
@@ -134,7 +139,7 @@ h2 {
 #section2{
     width:70%;
     margin:0 auto;
-    height:400vh;
+    
     
 }
 #section2 h2{
@@ -182,7 +187,7 @@ h2 {
     background: url(/img/news.png)0 0 no-repeat;
     width: 100vw;
     height: 100vh;
-    margin-top:-250px;
+    z-index:3;
 }
 
 #info h3 {
