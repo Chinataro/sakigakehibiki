@@ -339,6 +339,9 @@ footer p{
           top:-650px;
           
     }*/
+    #header{
+        height:25vh;
+    }
     #wrapper{
         background:contain;
     }
@@ -359,7 +362,7 @@ footer p{
     }
     #section2{
         width:80vw;
-        height:710vh;
+        height:800vh;
     }
     #content-box{
         width:400px;

@@ -167,6 +167,7 @@ h2 {
     margin: 0 auto;
     height: 75vh;
     display:flex;
+    justify-content:space-around;
     
 }
 
@@ -174,23 +175,24 @@ h2 {
     width: 70%;
     margin: 0 auto;
     height: 80vh;
-    
-    
+    display:flex;
+    justify-content:space-around;
 }
 .main2{
     width:400px;
     height:400px;
-    float:right;
+    order:2;
     
 }
 
 .main2 img {
-    width: 400px;
-    height: 400px;
+    width: 380px;
+    height: 380px;
 }
 .paragraph-box2{
     width:60vw;
     height:50vh;
+    order:1;
     
 }
 .paragraph-box2 h2 {
@@ -236,6 +238,7 @@ h2 {
     margin: 0 auto;
     height: 70vh;
     display:flex;
+    justify-content:space-around; 
    
 }
 /*
@@ -448,7 +451,15 @@ footer p{
 /*スマホ用css*/
     @media screen and (max-width: 480px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
         #wrapper{
-            background-size:cover;
+           background:none;
+            background:url("/img/spwrappermain.png");
+           background-size:cover;
+        }
+       h1{
+           color:#fff;
+}
+        header{
+            margin:0px;
         }
     nav a{
          font-size:15px;
@@ -484,7 +495,6 @@ footer p{
     .main2{
         width:380px;
         height:380px;
-        float:none;
         margin-bottom:20px;
     }
     .main2 img{
@@ -504,6 +514,7 @@ footer p{
         width:80%;
         margin:0 auto;
         height:800px;
+        display:block;
     }
     .paragraph-box2 h2{
         font-size: 32px;
@@ -546,10 +557,11 @@ footer p{
         font-size:30px;
     }
     #slick{
-        width:100%;
+        width:100vw;
         bottom:50px;
         height:500px;
     }
+        
     .infobox img{
         width:400px;
     }
