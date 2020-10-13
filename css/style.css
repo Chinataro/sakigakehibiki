@@ -82,7 +82,7 @@ nav a:hover{
 */
 #wrapper{
     background: url(/img/wrappermain.png) 50% 20% no-repeat;
-    background:cover;
+    background-size:cover;
     width:100%;
 }
 .logo img {
@@ -166,7 +166,7 @@ h2 {
     width: 70%;
     margin: 0 auto;
     height: 75vh;
-    margin-top:700px;
+    margin-top:500px;
     display:flex;
 }
 
@@ -449,7 +449,7 @@ footer p{
     }
 }*/
 /*スマホ用css*/
-@media screen and (max-width: 480px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+    @media screen and (max-width: 480px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
     nav a{
          font-size:15px;
           margin:10px 10px;
@@ -458,166 +458,92 @@ footer p{
           width:80px;
         height:90px;
     }
-    #header{
-         background:none;
-        background:url(/img/spmainhead.png) 0 0 no-repeat;
-    }
-    h1{
-        font-size:20px;
-        line-height:30px;
-        top:80px;
-        right:50px;
-    }
-    #main{
-          background:none;
-          background:url(/img/mainbackgroundsp.png)0 0 no-repeat;
-          top:-570px;
-          
-    }
-    #section1{
-        width:80%;
-        height:104vh;
+    .main1{
+        width:380px;
+        height:380px;
+        margin-right:0px;
+        margin-bottom:20px;
         
+    }
+    .main1 img{
+        width:380px;
+        height:380px;
+     
+    }
+    .paragraph-box1{
+        width:360px;
         
     }
     .paragraph-box1 h2{
-        padding-top:0px;
         font-size:24px;
-        width:400px;
+        
     }
-    .paragraph-box1 p {
-
-        font-size:14px;
-        width:400px;
-        line-height:30px;
-        margin-top:0px;
-        margin-top:20px;
+    .paragraph-box1 p{
+        font-size:18px;
     }
-    .paragraph-box1{
-        width:80%;
-        margin-right:0px;
-    }
-    #section1 .main1{
-        margin-right:0vw;
-        width:80vw;
-        text-align:center;
-    }
-    .main1 img{
-        margin-top:15vh;
+    .main2{
+        width:380px;
+        height:380px;
         float:none;
-        width:280px;
-        height:280px;
-        margin-right:0px;
         margin-bottom:20px;
+    }
+    .main2 img{
+        width:380px;
+        height:380px;
+    }
+    #section1{
+        width:80%;
+        height:850px;
+        margin:0 auto;
+        
+        margin-top:850px;
+        display:block;
+        
     }
     #section2{
         width:80%;
-        height:80vh;
-        
-    }
-    #section3{
-        width:80vw;
-    }
-    .main2 img{
-        margin:0px;
-        width:280px;
-        height:280px;
-        float:none;
-    }
-    .main2{
-        text-align: center;
+        margin:0 auto;
+        height:800px;
     }
     .paragraph-box2 h2{
-        width:400px;
-        padding:0vh;
-        margin-top:20px;
-        
-    }
-    .paragraph-box2{
-        width:400px;
-        font-size:24px;
+        font-size: 32px;
     }
     .paragraph-box2 p{
-        width:400px;
-        margin-top:10px;
-        line-height:30px;
         font-size:18px;
     }
-    .button1{
-        width:400px;
-        margin:0px;
-        margin-top:10px;
-       
+    .main5{
+        width:380px;
+        height:380px;
+        margin-bottom:20px;
     }
-    .main3 img{
-        float:none;
-        width:280px;
-        height:280px;
-        margin:0px;
-        margin-top:50px;
-        
+    .main5 img{
+        width:380px;
+        height:380px;
     }
-    .main3{
-        text-align:center;
+    #section3{
+        width:80%;
+        margin:0 auto;
+        display:block;
+        height:800px;
     }
     .paragraph-box3{
-        width:400px;
-        margin-top:40px;
+        width:380px;
     }
     .paragraph-box3 h2{
-        width:400px;
-        padding:0px;
+        font-size:32px;
     }
     .paragraph-box3 p{
-        width:400px;
-        margin-top:20px;
-        line-height:30px;
-        padding-left:10px;
         font-size:18px;
     }
-    .main4 img{
-        top:1530px;
-        left:70px;
-        width:160px;
-        height:160px;
-    }
-    .button2{
-         width:400px;
-        margin:0px;
-        margin-left:0px;
-        margin-right:0px;
-        margin-top:25px;
-    }
-    #info{
-        margin-top:-570px;
-        height:90vh;
-        width:100vw;
-    }
-    #info h3{
-        padding-top:30px;
-        font-size:30px;
-    }
-    #slick{
-        width:100%;
-        bottom:400px;
-        height:500px;
-    }
-    .infobox img{
-        width:400px;
-        
-    }
-    footer{
-        text-align: left;
-    }
-    footer li{
-        float:none;
-        margin:6px 10px;
-        font-size:14px;
-    }
-    footer p{
-        margin-top:0px;
-        margin-left:10px;
-        font-size:15px;
-      
-    }
+    
+        #slick{
+            margin-top:30px;
+            height:60%;
+        }
+        footer{
+            height:auto;
+        }
+        footer li{
+            margin:10px 6px;
+        }
 }
