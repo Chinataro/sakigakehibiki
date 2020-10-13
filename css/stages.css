@@ -86,7 +86,7 @@ color:#726e6e;
 }
 */
 #wrapper{
-    background:url("/img/wrapperstages.png") no-repeat;
+    background:url("/img/wrapperstages2.png") no-repeat;
     background-size:cover;
 }
 .logo img {
@@ -131,7 +131,7 @@ h2 {
     width: 70%;
     margin: 0 auto;
     height: 75vh;
-    padding-top:300px;
+    padding-top:500px;
 
 }
 #section1 p{
@@ -321,20 +321,25 @@ footer p{
           width:80px;
         height:90px;
     }
+    /*
     #header{
          background:none;
         background:url(/img/spsbackgroundstages.png) 0 0 no-repeat;
-    }
+    }*/
     h1{
         font-size:20px;
         line-height:30px;
         top:150px;
     }
+    /*
     #main{
           background:none;
           background:url(/img/spstagesback2.png)0 0 no-repeat;
           top:-650px;
           
+    }*/
+    #wrapper{
+        background:contain;
     }
     #section1{
         width:80vw;
@@ -353,7 +358,7 @@ footer p{
     }
     #section2{
         width:80vw;
-        height:800vh;
+        height:710vh;
     }
     #content-box{
         width:400px;
@@ -372,7 +377,6 @@ footer p{
         margin:10px 30px;
     }
      #info{
-        margin-top:-650px;
         height:90vh;
          width:100vw;
     }
