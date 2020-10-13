@@ -20,6 +20,7 @@ body {
 #header {
     width: 100%;
     overflow: hidden;
+    height:100vh;
 
 
 
@@ -131,7 +132,7 @@ h2 {
     width: 70%;
     margin: 0 auto;
     height: 75vh;
-    padding-top:500px;
+    
 
 }
 #section1 p{
