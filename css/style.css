@@ -454,10 +454,13 @@ footer p{
         }
        h1{
            color:#fff;
+           right:90px;
+           top:20vh;
 }
-        header{
+        
+        #header{
             margin:0px;
-            height:20px;
+            height:90vh;
         }
     nav a{
          font-size:15px;
@@ -494,6 +497,7 @@ footer p{
         width:80vw;
         height:auto;
         margin-bottom:20px;
+        
     }
     .main2 img{
         width:80vw;
@@ -515,7 +519,7 @@ footer p{
         display:block;
     }
     .paragraph-box2{
-        width:80vw;
+        width:100%;
         
 }
     .paragraph-box2 h2{
@@ -541,7 +545,7 @@ footer p{
         
     }
     .paragraph-box3{
-        width:80vw;
+        width:100%;
     }
     .paragraph-box3 h2{
         font-size:32px;
@@ -563,7 +567,7 @@ footer p{
         font-size:30px;
     }
     #slick{
-        width:100vw;
+        width:100%;
         bottom:50px;
         height:500px;
     }
