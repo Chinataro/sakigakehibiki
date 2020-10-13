@@ -75,7 +75,7 @@ nav a:hover::after {
 nav a:hover{
 color:#726e6e;
 }
-
+/*
 #header {
     background: url(/img/sstageshead.png) 0 0 no-repeat;
     background: cover;
@@ -84,7 +84,11 @@ color:#726e6e;
     position: relative;
     
 }
-
+*/
+#wrapper{
+    background:url("/img/wrapperstages.png") no-repeat;
+    background-size:cover;
+}
 .logo img {
     width:250px;
     height:280px;
@@ -101,7 +105,7 @@ h1 {
     line-height: 100px;
     position: absolute;
 }
-
+/*
 #main {
     background: url(/img/backgroundstages.png) 0 0 no-repeat;
     width: 100vw;
@@ -109,7 +113,7 @@ h1 {
     top: -250px;
     position: relative;
 }
-
+*/
 
 p {
     font-size: 20px;
@@ -126,8 +130,8 @@ h2 {
 #section1 {
     width: 70%;
     margin: 0 auto;
-    height: 80vh;
-    padding-top:160px;
+    height: 75vh;
+    padding-top:300px;
 
 }
 #section1 p{
@@ -139,7 +143,7 @@ h2 {
 #section2{
     width:70%;
     margin:0 auto;
-    height:250vh;
+    padding-bottom:50px;
     
 }
 #section2 h2{
@@ -202,7 +206,6 @@ h2 {
     background: url(/img/news.png)0 0 no-repeat;
     width: 100vw;
     height: 100vh;
-    margin-top:-250px;
 }
 
 #info h3 {
