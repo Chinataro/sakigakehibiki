@@ -186,17 +186,16 @@ h2 {
 }
 
 .main2 img {
-    width: 380px;
-    height: 380px;
+    width: 400px;
+    height: 400px;
 }
 .paragraph-box2{
-    width:60vw;
+    width:40vw;
     height:50vh;
     order:1;
     
 }
 .paragraph-box2 h2 {
-    width: 400px;
     font-size: 36px;
     color: #f9f5f0;
     text-align: center;
@@ -204,7 +203,6 @@ h2 {
 }
 
 .paragraph-box2 p {
-    width: 400px;
     line-height: 40px;
     margin-top: 30px;
 
@@ -227,7 +225,6 @@ h2 {
 }
 .button1 {
     margin-top:30px;
-    width: 400px;
     text-align: center;
 }
 
@@ -460,6 +457,7 @@ footer p{
 }
         header{
             margin:0px;
+            height:20px;
         }
     nav a{
          font-size:15px;
@@ -470,19 +468,19 @@ footer p{
         height:90px;
     }
     .main1{
-        width:380px;
-        height:380px;
+        width:80vw;
+        height:auto;
         margin-right:0px;
         margin-bottom:20px;
         
     }
     .main1 img{
-        width:380px;
-        height:380px;
+        width:80vw;
+        height:auto;
      
     }
     .paragraph-box1{
-        width:360px;
+        width:80vw;
         
     }
     .paragraph-box1 h2{
@@ -493,29 +491,33 @@ footer p{
         font-size:18px;
     }
     .main2{
-        width:380px;
-        height:380px;
+        width:80vw;
+        height:auto;
         margin-bottom:20px;
     }
     .main2 img{
-        width:380px;
-        height:380px;
+        width:80vw;
+        height:auto;
     }
     #section1{
-        width:80%;
+        width:85%;
         height:850px;
         margin:0 auto;
         
-        margin-top:850px;
+        margin-top:0px;
         display:block;
         
     }
     #section2{
-        width:80%;
+        width:85%;
         margin:0 auto;
         height:800px;
         display:block;
     }
+    .paragraph-box2{
+        width:80vw;
+        
+}
     .paragraph-box2 h2{
         font-size: 32px;
     }
@@ -523,22 +525,23 @@ footer p{
         font-size:18px;
     }
     .main5{
-        width:380px;
-        height:380px;
+        width:80vw;
+        height:auto;
         margin-bottom:20px;
     }
     .main5 img{
-        width:380px;
-        height:380px;
+        width:80vw;
+        height:auto;
     }
     #section3{
-        width:80%;
+        width:85%;
         margin:0 auto;
         display:block;
         height:800px;
+        
     }
     .paragraph-box3{
-        width:380px;
+        width:80vw;
     }
     .paragraph-box3 h2{
         font-size:32px;
@@ -546,7 +549,10 @@ footer p{
     .paragraph-box3 p{
         font-size:18px;
     }
-    
+    .center{
+        text-align:center;
+        width:85%;
+        }
      #info{
         height:90vh;
         width:100%;
