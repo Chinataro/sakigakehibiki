@@ -115,27 +115,26 @@ h1 {
 
 
 .main1 img {
-    width: 350px;
-    height:350px;
+    width: 400px;
+    height:400px;
    
     
 }
 .main1{
-    width:350px;
-    height:350px;
-    margin-right:40px;
+    width:400px;
+    height:400px;
     float:left;
+    margin-right:50px;
 }
 
 .paragraph-box1{
-    width:65vw;
-    height:45vh;
+    width:40vw;
+    height:50vh;
 }
 .paragraph-box1 h2 {
     margin-right:0px;
     font-size: 36px;
     color: #f9f5f0;
-
 
 
 }
@@ -166,38 +165,45 @@ h2 {
 #section1 {
     width: 70%;
     margin: 0 auto;
-    height: 85vh;
-
+    height: 75vh;
+    margin-top:700px;
+    display:flex;
 }
 
 #section2 {
     width: 70%;
     margin: 0 auto;
-    height: 72vh;
+    height: 80vh;
+    
+}
+.main2{
+    width:400px;
+    height:400px;
+    float:right;
+    
 }
 
 .main2 img {
     width: 400px;
     height: 400px;
-    margin-top:20px;
-    float: right;
-    margin-left: 25px;
-
 }
-
+.paragraph-box2{
+    width:60vw;
+    height:50vh;
+    
+}
 .paragraph-box2 h2 {
     width: 400px;
-    padding-top: 120px;
     font-size: 36px;
     color: #f9f5f0;
     text-align: center;
+    
 }
 
 .paragraph-box2 p {
     width: 400px;
     line-height: 40px;
     margin-top: 30px;
-    margin-right: 20px;
 
 }
 
@@ -227,9 +233,10 @@ h2 {
 #section3 {
     width: 70%;
     margin: 0 auto;
-    height: 96vh;
+    height: 80vh;
+    display:flex;
 }
-
+/*
 .main3 img {
     width: 400px;
     height:400px;
@@ -240,7 +247,16 @@ h2 {
 
 
 }
-
+*/
+.main5{
+    width:400px;
+    height:400px;
+    margin-right:250px;
+}
+.main5 img{
+    width:400px;
+    height:400px;
+}
 .paragraph-box3 p {
 
     line-height:40px;
@@ -250,7 +266,6 @@ h2 {
 }
 
 .paragraph-box3 h2 {
-    padding-top: 10px;
     font-size: 36px;
     color: #f9f5f0;
     text-align: center;
@@ -273,11 +288,11 @@ h2 {
 }
 .button2 {
     margin-top: 30px;
-    width: 400px;
+    width: 300px;
     text-align: center;
-    float: right;
+    
 }
-
+/*
 .main4 img {
     width:250px;
     height: 250px;
@@ -286,18 +301,18 @@ h2 {
     left:200px;
     top:1560px;
 }
-
+*/
 .paragraph-box3 {
-    margin-top: 250px;
-    width: 400px;
+    width: 300px;
     float: right;
+    
 }
 
 #info {
     background: url(/img/news.png)0 0 no-repeat;
     width: 100vw;
     height: 100vh;
-    margin-top:-160px;
+    
 }
 
 #info h3 {
