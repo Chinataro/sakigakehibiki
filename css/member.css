@@ -212,6 +212,9 @@ h2 {
 }
 #slick{
     margin-top:100px;
+    width:100%;
+    height:auto;
+   
 }
 .infobox .info-button a{
     text-decoration:none;
@@ -232,7 +235,7 @@ h4{
     
 }
 #slick{
-    overflow:hidden;
+overflow:hidden
 }
 .infobox .info-button{
     display:inline-block;
@@ -256,7 +259,7 @@ h4{
     top: 0;
     left: 0;
     width: 20px;
-    height: 20px;
+    height: 30px;
     content: '•';
     text-align: center;
     opacity: .25;
@@ -389,8 +392,7 @@ footer p{
     #slick{
         width:100%;
         bottom:50px;
-        height:500px;
-        overflow:hidden;
+        height:480px;
     }
     .infobox img{
         width:400px;
