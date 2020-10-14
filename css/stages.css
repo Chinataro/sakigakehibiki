@@ -406,7 +406,7 @@ footer p{
     }
     footer{
         text-align: left;
-        padding-top:18px;
+        padding-top:20px;
     }
     footer li{
         float:none;
@@ -416,7 +416,7 @@ footer p{
     
     footer p{
         width:80%;
-        margin-bottom:8px;
+        margin-top:0px;
         margin-left:10px;
         font-size:15px;
       
