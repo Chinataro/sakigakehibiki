@@ -315,7 +315,7 @@ footer p{
 /**/
 @media screen and (max-width: 480px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
   nav a{
-         font-size:15px;
+         font-size:12px;
           margin:10px 10px;
     }
     .logo img{
@@ -346,7 +346,7 @@ footer p{
         background:contain;
     }
     #section1{
-        width:80vw;
+        width:80%;
         height:75vh;
         padding-top:100px;
     }
@@ -361,8 +361,11 @@ footer p{
         
     }
     #section2{
-        width:80vw;
-        height:800vh;
+        width:80%;
+        height:720vh;
+    }
+    #section2 h2{
+        font-size: 30px;
     }
     #content-box{
         width:400px;
@@ -382,7 +385,7 @@ footer p{
     }
      #info{
         height:90vh;
-         width:100vw;
+         width:100%;
     }
     #info h3{
         padding-top:40px;
@@ -398,16 +401,19 @@ footer p{
         width:400px;
         
     }
+    slick-track{
+        width:100%;
+    }
     footer{
         text-align: left;
     }
     footer li{
         float:none;
-        margin:6px 10px;
+        margin:10px 10px;
         font-size:14px;
     }
     footer p{
-        width:100vw;
+        width:80%;
         padding-bottom:2px;
         margin-top:0px;
         margin-left:10px;
