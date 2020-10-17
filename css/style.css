@@ -305,17 +305,22 @@ h2 {
     display: inline-block;
     border-color: #2a2828;
     padding: 18px 60px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 
 
 }
 .button1 a:hover{
     color:#2a2828;
     background-color:#f9f5f0;
+    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+    cursor: pointer;
 }
 .button1 {
     margin-top:30px;
     text-align: center;
 }
+
 
 
 
@@ -368,12 +373,16 @@ h2 {
     display: inline-block;
     border-color: #2a2828;
     padding:18px 60px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 
 
 }
 .button2 a:hover{
      color:#2a2828;
     background-color:#f9f5f0;
+     box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+    cursor: pointer;
 }
 .button2 {
     margin-top: 50px;
