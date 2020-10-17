@@ -27,9 +27,31 @@
 
 <body>
  
+   <!-- ローディング画面 -->
+        <div id="loading">
+            <div class="spinner"></div>
+        </div>
+
+        <!-- コンテンツ部分 -->
+        <div class="gallery">
+            <div class="item">
+                <img src="images/img1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="images/img2.jpg" alt="">
+            </div>
+
+            <!-- ・・・ 以下コンテンツ略 ・・・ -->
+
+        </div>
+ 
+ 
+ 
+ 
+ 
   <div id = "main">
    <section id = "section1">
-       <h2>魁響には個性溢れる<br>
+       <h2 class = "fuwat">魁響には個性溢れる<br>
            約40名のメンバーが在籍しています。
         </h2>
        <p>魁響はメンバー全員が早稲田大学の学生です。<br>昨年11月に先輩方が引退してからは少人数で活動していましたが、9月からは新しく11代目を迎え、現在は日々早稲田祭に向けて練習しています。<br>
@@ -174,22 +196,43 @@
     <script>
         $(document).ready(function() {
             $('#slick').slick({
-                centerMode:true,
-                centerPadding:"20%",
-                variableWidth:true,
-                slidesToShow:1,
+                centerMode: true,
+                centerPadding: "20%",
+                variableWidth: true,
+                slidesToShow: 1,
                 accessbility: true,
                 autoplay: true,
-                autoplaySpeed:3000,
-                pauseOnHover:true,
-                infinite:true,
-                dots:true,
-                
-　　　　　　　　
+                autoplaySpeed: 3000,
+                pauseOnHover: true,
+                infinite: true,
+                dots: true,
+
+
             });
         });
     </script>
-    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('h2.fuwat').css('visibility', 'hidden');
+            $(window).scroll(function() {
+                var windowHeight = $(window).height(),
+                    topWindow = $(window).scrollTop();
+                $('.fuwat').each(function() {
+                    var objectPosition = $(this).offset().top;
+                    if (topWindow > objectPosition - windowHeight + 200) {
+                        $(this).addClass("fuwatAnime");
+                    }
+                });
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            const spinner = document.getElementById('loading');
+            spinner.classList.add('loaded');
+        }
+    </script>
+
    
 </body>
 <footer>

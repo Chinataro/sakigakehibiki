@@ -68,11 +68,13 @@ nav a::after {
 nav a:hover::after {
     transform: scale(1, 1);
 
-     
+
 }
-nav a:hover{
-    color:#726e6e;
+
+nav a:hover {
+    color: #726e6e;
 }
+
 /*
 #header {
     background: url(/img/mainhead.png) 0 0 no-repeat;
@@ -81,11 +83,53 @@ nav a:hover{
     position: relative;
 }
 */
-#wrapper{
-    background: url(/img/wrappermain.png) no-repeat;
-    background-size:cover;
-    width:100%;
+.fuwatAnime {
+    -webkit-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1.5s;
+    -ms-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-name: fuwatAnime;
+    -ms-animation-name: fuwatAnime;
+    animation-name: fuwatAnime;
+    visibility: visible !important;
 }
+
+@-webkit-keyframes fuwatAnime {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes fuwatAnime {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+#wrapper {
+    background: url(/img/wrappermain.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
 .logo img {
     width: 250px;
     height: 280px;
@@ -102,8 +146,10 @@ h1 {
     position: absolute;
     top: 120px;
     right: 120px;
+    text-shadow:2px 3px 15px #808080;
 
 }
+
 /*
 #main {
     background: url(/img/backgroundmain.png) 0 0 no-repeat;
@@ -453,8 +499,9 @@ footer p{
         }
        h1{
            color:#fff;
-           right:90px;
+           right:120px;
            top:20vh;
+           text-shadow:-3px 5px 9px #252423;
 }
       
         
@@ -466,22 +513,78 @@ footer p{
          font-size:12px;
           margin:10px 10px;
     }
-    .logo img{
-          width:80px;
-        height:90px;
+    .logo img {
+        width: 80px;
+        height: 90px;
     }
-    .main1{
-        width:85vw;
-        height:auto;
-        margin-right:0px;
-        margin-bottom:20px;
+
+    /* ローディング画面 */
+    #loading {
+        width: 100vw;
+        height: 100vh;
+        transition: all 1s;
+        background-color: #292828;
+        /* 以下のコードを追加 */
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+    }
+
+    .spinner {
+        width: 100px;
+        height: 100px;
+        top:150px;
+        margin: 400 auto;
+        background-color: #fff;
+        border-radius: 100%;
+        animation: sk-scaleout 1.0s infinite ease-in-out;
+    }
+
+    /* ローディングアニメーション */
+    @keyframes sk-scaleout {
+        0% {
+            transform: scale(0);
+        }
+
+        100% {
+            transform: scale(1.0);
+            opacity: 0;
+        }
+    }
+
+    /* コンテンツ部分の装飾 */
+    .gallery {
+        display: grid;
+        gap: .5rem;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    
+    .loaded {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+
+
+
+
+
+
+    .main1 {
+        width: 85vw;
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 20px;
         text-align: center;
-        
+
     }
-    .main1 img{
-        width:80vw;
-        height:auto;
-     
+
+    .main1 img {
+        width: 80vw;
+        height: auto;
+
     }
     .paragraph-box1{
         width:100%;

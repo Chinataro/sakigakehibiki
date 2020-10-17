@@ -35,14 +35,31 @@
 
 
     <body>
-　　　　
+        　　　　　
+        <!-- ローディング画面 -->
+        <div id="loading">
+            <div class="spinner"></div>
+        </div>
+
+        <!-- コンテンツ部分 -->
+        <div class="gallery">
+            <div class="item">
+                <img src="images/img1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="images/img2.jpg" alt="">
+            </div>
+
+            <!-- ・・・ 以下コンテンツ略 ・・・ -->
+
+        </div>
         <div id="main">
             <section id="section1">
-               
+
                 <div class="main1"><img src="/img/main1.png"></div>
-               
+
                 <div class="paragraph-box1">
-                    <h2>こんにちは！<br>早稲田大学公認和太鼓サークル、<br>魁響（さきがけひびき）です！</h2>
+                    <h2 class="fuwat">こんにちは！<br>早稲田大学公認和太鼓サークル、<br>魁響（さきがけひびき）です！</h2>
                     <p>早稲田大学公認サークルで唯一の和太鼓サークルです。<br>2010年設立以来、「本気の自分へ、さきがけろ！」をモットーに日々活動しています。<br>和太鼓の”響”、舞台で聴いて、観て、感じてください！</p>
                 </div>
             </section>
@@ -51,7 +68,7 @@
                 <div class="paragraph-box2">
                     <h2>メンバー紹介</h2>
                     <p>魁響は約40名のメンバーで構成されており、<br>その全員が早稲田大学の学生です。<br>個性あふれる魁響のメンバーをぜひご覧ください！</p>
-                    
+
                     <div class="button1">
                         <a href="/member.html"><span>メンバー紹介</span></a>
                     </div>
@@ -170,6 +187,29 @@
         });
     });
 </script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('h2.fuwat').css('visibility', 'hidden');
+        $(window).scroll(function() {
+            var windowHeight = $(window).height(),
+                topWindow = $(window).scrollTop();
+            $('.fuwat').each(function() {
+                var objectPosition = $(this).offset().top;
+                if (topWindow > objectPosition - windowHeight + 200) {
+                    $(this).addClass("fuwatAnime");
+                }
+            });
+        });
+    });
+</script>
+<script type="text/javascript">
+    window.onload = function() {
+  const spinner = document.getElementById('loading');
+  spinner.classList.add('loaded');
+}
+
+</script>
+
 <footer>
     <ul>
         <li><a href="/index.html">魁響について</a></li>

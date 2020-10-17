@@ -26,9 +26,28 @@
 </div>
 
 <body>
+ 
+   <!-- ローディング画面 -->
+        <div id="loading">
+            <div class="spinner"></div>
+        </div>
+
+        <!-- コンテンツ部分 -->
+        <div class="gallery">
+            <div class="item">
+                <img src="images/img1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="images/img2.jpg" alt="">
+            </div>
+
+            <!-- ・・・ 以下コンテンツ略 ・・・ -->
+
+        </div>
+ 
   <div id = "main">
    <section id = "section1">
-       <h2>聴く人の「心に響く」<br>
+       <h2 class = "fuwat">聴く人の「心に響く」<br>
            パフォーマンスを！
         </h2>
        <p>私たち魁響は、早稲田祭を筆頭として学内外の様々な舞台やイベントで演奏しています。<br>そのため、出演舞台は毎年異なり、その舞台に合わせたパフォーマンスを披露しております。<br>ここでは昨年度出演いたしました舞台をご紹介します。<br>魁響の「心に響く」パフォーマンスを是非お楽しみください！<br>そして実際の舞台にも足を運んでいただければ幸いです。</p>
@@ -126,7 +145,6 @@
             
            </div>
        </div>
-       
    </section>
     </div>
 </div>
@@ -211,20 +229,41 @@
     <script>
         $(document).ready(function() {
             $('#slick').slick({
-                centerMode:true,
-                centerPadding:"20%",
-                variableWidth:true,
-                slidesToShow:1,
+                centerMode: true,
+                centerPadding: "20%",
+                variableWidth: true,
+                slidesToShow: 1,
                 accessbility: true,
                 dots: false,
                 autoplay: true,
                 autoplaySpeed: 2000,
                 arrows: true,
-                pauseOnHover:true,
-                infinite:true,
-　　　　　　　　
+                pauseOnHover: true,
+                infinite: true,
+
             });
         });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('h2.fuwat').css('visibility', 'hidden');
+            $(window).scroll(function() {
+                var windowHeight = $(window).height(),
+                    topWindow = $(window).scrollTop();
+                $('.fuwat').each(function() {
+                    var objectPosition = $(this).offset().top;
+                    if (topWindow > objectPosition - windowHeight + 200) {
+                        $(this).addClass("fuwatAnime");
+                    }
+                });
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            const spinner = document.getElementById('loading');
+            spinner.classList.add('loaded');
+        }
     </script>
 </body>
 <footer>
