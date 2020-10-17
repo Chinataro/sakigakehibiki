@@ -136,6 +136,51 @@ nav a:hover {
     margin: 20px 25px;
 }
 
+/* ローディング画面 */
+#loading {
+    width: 100vw;
+    height: 100vh;
+    transition: all 1s;
+    background-color:#292828;
+    /* 以下のコードを追加 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.spinner {
+    width: 100px;
+    height: 100px;
+    margin: 350px auto;
+    background-color: #fff;
+    border-radius: 100%;
+    animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+/* ローディングアニメーション */
+@keyframes sk-scaleout {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1.0);
+        opacity: 0;
+    }
+}
+
+/* コンテンツ部分の装飾 */
+
+
+.loaded {
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+
 h1 {
     writing-mode: vertical-rl;
     font-size: 54px;
@@ -518,59 +563,7 @@ footer p{
         height: 90px;
     }
 
-    /* ローディング画面 */
-    #loading {
-        width: 100vw;
-        height: 100vh;
-        transition: all 1s;
-        background-color: #292828;
-        /* 以下のコードを追加 */
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 9999;
-    }
-
-    .spinner {
-        width: 100px;
-        height: 100px;
-        top:150px;
-        margin: 350 auto;
-        background-color: #fff;
-        border-radius: 100%;
-        animation: sk-scaleout 1.0s infinite ease-in-out;
-    }
-
-    /* ローディングアニメーション */
-    @keyframes sk-scaleout {
-        0% {
-            transform: scale(0);
-        }
-
-        100% {
-            transform: scale(1.0);
-            opacity: 0;
-        }
-    }
-
-    /* コンテンツ部分の装飾 */
-    .gallery {
-        display: grid;
-        gap: .5rem;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-
-    
-    .loaded {
-        opacity: 0;
-        visibility: hidden;
-    }
-
-
-
-
-
-
+  
 
     .main1 {
         width: 85vw;

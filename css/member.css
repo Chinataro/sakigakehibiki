@@ -123,11 +123,6 @@ nav a:hover{
 }
 
 /* コンテンツ部分の装飾 */
-.gallery {
-    display: grid;
-    gap: .5rem;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
 
 
 .loaded {
